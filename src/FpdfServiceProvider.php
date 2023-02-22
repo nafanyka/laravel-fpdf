@@ -1,4 +1,4 @@
-<?php namespace Codedge\Fpdf;
+<?php namespace Nafanyka\Fpdf;
 
 use Illuminate\Support\ServiceProvider;
 
