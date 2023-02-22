@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Codedge\Fpdf\Test;
+namespace Nafanyka\Fpdf\Test;
 
-use Codedge\Fpdf\Fpdf\Fpdf;
+use Nafanyka\Fpdf\Fpdf\Fpdf;
 
 class FpdfTest extends TestCase
 {
