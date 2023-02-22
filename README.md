@@ -1,23 +1,23 @@
 # Laravel package for Fpdf
 
-[![Latest Stable Version](https://poser.pugx.org/codedge/laravel-fpdf/v/stable?format=flat-square)](https://packagist.org/packages/codedge/laravel-fpdf)
-[![Total Downloads](https://poser.pugx.org/codedge/laravel-fpdf/downloads?format=flat-square)](https://packagist.org/packages/codedge/laravel-fpdf)
-[![](https://github.com/codedge/laravel-fpdf/workflows/Tests/badge.svg)](https://github.com/codedge/laravel-fpdf/actions)
+[![Latest Stable Version](https://poser.pugx.org/nafanyka/laravel-fpdf/v/stable?format=flat-square)](https://packagist.org/packages/nafanyka/laravel-fpdf)
+[![Total Downloads](https://poser.pugx.org/nafanyka/laravel-fpdf/downloads?format=flat-square)](https://packagist.org/packages/nafanyka/laravel-fpdf)
+[![](https://github.com/nafanyka/laravel-fpdf/workflows/Tests/badge.svg)](https://github.com/nafanyka/laravel-fpdf/actions)
 [![StyleCI](https://styleci.io/repos/59506451/shield)](https://styleci.io/repos/59506451)
-[![License](https://poser.pugx.org/codedge/laravel-fpdf/license?format=flat-square)](https://packagist.org/packages/codedge/laravel-fpdf)
+[![License](https://poser.pugx.org/nafanyka/laravel-fpdf/license?format=flat-square)](https://packagist.org/packages/nafanyka/laravel-fpdf)
 
 Using [FPDF](http://www.fpdf.org/) made easy with Laravel. See [FPDF homepage](http://www.fpdf.org/) for more information about the usage.
 
 ## Installation using [Composer](https://getcomposer.org/)
 
 ```sh
-composer require codedge/laravel-fpdf
+composer require nafanyka/laravel-fpdf
 ```
 
 ## Configuration
 
 Run  
-`php artisan vendor:publish --provider="Codedge\Fpdf\FpdfServiceProvider" --tag=config`  
+`php artisan vendor:publish --provider="Nafanyka\Fpdf\FpdfServiceProvider" --tag=config`  
 to publish the configuration file to `config/fpdf.php`.
 
 ## Usage
@@ -25,7 +25,7 @@ to publish the configuration file to `config/fpdf.php`.
 ```php
 // app/Http/routes.php | app/routes/web.php
 
-Route::get('/', function (Codedge\Fpdf\Fpdf\Fpdf $fpdf) {
+Route::get('/', function (Nafanyka\Fpdf\Fpdf\Fpdf $fpdf) {
 
     $fpdf->AddPage();
     $fpdf->SetFont('Courier', 'B', 18);
