@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Codedge\Fpdf\Test;
+namespace Nafanyka\Fpdf\Test;
 
-use Codedge\Fpdf\FpdfServiceProvider;
+use Nafanyka\Fpdf\FpdfServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
